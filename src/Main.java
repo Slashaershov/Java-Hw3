@@ -26,7 +26,30 @@ public class Main
         short allListCount = 480;
         int onePeopleListCount = allListCount/
                 (firstClassCount +secondClassCount +thirdClassCount);
-        System.out.println("На каждого ученика рассчитано "+ onePeopleListCount + "листов бумаги" );
+        System.out.println("На каждого ученика рассчитано "+ onePeopleListCount + " листов бумаги" );
+
+        // exercise 4
+        byte bottleCount = 16;
+        byte fillTime = 2;
+        int capacity =  bottleCount/fillTime;
+        int timeInMinute = 20;
+        int result = capacity *timeInMinute;
+        System.out.println("За " + timeInMinute + " минут" +" машина произвела " + result + " штук бутылок");
+
+        short timeInDays = 1;
+        timeInMinute = timeInDays*24*60;
+        result = capacity *timeInMinute;
+        System.out.println("За " + timeInDays + " дней" +" машина произвела " + result + " штук бутылок");
+
+        timeInDays = 3;
+        timeInMinute = timeInDays*24*60;
+        result = capacity *timeInMinute;
+        System.out.println("За " + timeInDays + " суток" +" машина произвела " + result + " штук бутылок");
+
+        byte timeInMounth =1;
+        timeInMinute = timeInDays*24*60*30;
+        result = capacity *timeInMinute;
+        System.out.println("За " + timeInMounth + " месяцев" +" машина произвела " + result + " штук бутылок");
     }
 
 }
