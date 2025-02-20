@@ -4,11 +4,17 @@ public class Main
     {
         // exercise 1
         int myInt = 1;
+        System.out.println("Значение переменной myInt с типом int равно " + myInt);
         byte myByte = 2;
+        System.out.println("Значение переменной myByte с типом byte равно " + myByte);
         short myShort = 3;
+        System.out.println("Значение переменной myShort с типом short равно " + myShort);
         long myLong = 4L;
+        System.out.println("Значение переменной myLong с типом long равно " + myLong);
         float myFloat = 3.5f;
+        System.out.println("Значение переменной myFloat с типом float равно " + myFloat);
         double myDouble = 2.3;
+        System.out.println("Значение переменной myDouble с типом double равно " + myDouble);
 
         // exercise 2
         float p1 = 27.12f;
