@@ -76,7 +76,14 @@ public class Main
         float massToFloat = mass/1000f;
         System.out.println("Спортсмен жрет... хавает... т.е. потребляет " +mass+ " грамм или " + massToFloat + " кг пищи");
 
-        
+        // exercise 7
+        int m = 7000;
+        int plan1 = 250;
+        int plan2 = 500;
+        int duration1 = m/plan1;
+        int duration2 = m/plan2;
+        float averageDuration = (duration1 + duration2)/2f;
+        System.out.println("Среднее ожидаемое время похудения спортмена (да да, который жра... потреблял по кг за прием) " + averageDuration + " дней");
     }
 
 }
