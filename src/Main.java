@@ -26,7 +26,7 @@ public class Main
         short allListCount = 480;
         int onePeopleListCount = allListCount/
                 (firstClassCount +secondClassCount +thirdClassCount);
-        System.out.println("На каждого ученика рассчитано "+ onePeopleListCount + " листов бумаги" );
+        System.out.println("На каждого ученика рассчитано "+ onePeopleListCount + " листов бумаги." );
 
         // exercise 4
         byte bottleCount = 16;
@@ -34,22 +34,22 @@ public class Main
         int capacity =  bottleCount/fillTime;
         int timeInMinute = 20;
         int result = capacity *timeInMinute;
-        System.out.println("За " + timeInMinute + " минут" +" машина произвела " + result + " штук бутылок");
+        System.out.println("За " + timeInMinute + " минут" +" машина произвела " + result + " штук бутылок.");
 
         short timeInDays = 1;
         timeInMinute = timeInDays*24*60;
         result = capacity *timeInMinute;
-        System.out.println("За " + timeInDays + " дней" +" машина произвела " + result + " штук бутылок");
+        System.out.println("За " + timeInDays + " дней" +" машина произвела " + result + " штук бутылок.");
 
         timeInDays = 3;
         timeInMinute = timeInDays*24*60;
         result = capacity *timeInMinute;
-        System.out.println("За " + timeInDays + " суток" +" машина произвела " + result + " штук бутылок");
+        System.out.println("За " + timeInDays + " суток" +" машина произвела " + result + " штук бутылок.");
 
         byte timeInMounth =1;
         timeInMinute = timeInDays*24*60*30;
         result = capacity *timeInMinute;
-        System.out.println("За " + timeInMounth + " месяцев" +" машина произвела " + result + " штук бутылок");
+        System.out.println("За " + timeInMounth + " месяцев" +" машина произвела " + result + " штук бутылок.");
 
         // exercise 5
         byte red = 2;
@@ -74,7 +74,7 @@ public class Main
                 + iceCreamWeight*iceCreamCount
                 +eggWeight*eggCount;
         float massToFloat = mass/1000f;
-        System.out.println("Спортсмен жрет... хавает... т.е. потребляет " +mass+ " грамм или " + massToFloat + " кг пищи");
+        System.out.println("Спортсмен жрет... хавает... т.е. потребляет " +mass+ " грамм или " + massToFloat + " кг пищи.");
 
         // exercise 7
         int m = 7000;
@@ -83,7 +83,12 @@ public class Main
         int duration1 = m/plan1;
         int duration2 = m/plan2;
         float averageDuration = (duration1 + duration2)/2f;
-        System.out.println("Среднее ожидаемое время похудения спортмена (да да, который жра... потреблял по кг за прием) " + averageDuration + " дней");
+        System.out.println("Время похудения спортмена (да да, который жра... потреблял по кг за прием) "
+                + " при худении на " + plan1 + " грамм в день составит "  + duration1 + " дней;"
+                + " при худении на " + plan2 + " грамм в день составит "  + duration2 + " дней;"
+                + " или в среднем " + averageDuration + " дней.");
+
+
     }
 
 }
