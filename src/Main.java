@@ -86,7 +86,7 @@ public class Main
         System.out.println("Время похудения спортмена (да да, который жра... потреблял по кг за прием) " + " при худении на " + plan1 + " грамм в день составит " + duration1 + " дней;" + " при худении на " + plan2 + " грамм в день составит " + duration2 + " дней;" + " или в среднем " + averageDuration + " дней.");
         System.out.println();
 
-// exercise 8
+        // exercise 8
         float currentSalaryMashaMonth = 67760;
         float currentSalaryDenisMonth = 83690;
         float currentSalaryKristineMonth = 76230;
@@ -101,7 +101,7 @@ public class Main
         currentSalaryDenisMonth *= salaryRise;
         currentSalaryKristineMonth *= salaryRise;
 
-//calc year rise
+        //calc year rise
         float salaryRiseMashaYear = (currentSalaryMashaMonth - prevSalaryMashaMonth) * 12;
         float salaryRiseDenisYear = (currentSalaryDenisMonth - prevSalaryDenisMonth) * 12;
         float salaryRiseKristineYear = (currentSalaryKristineMonth - prevSalaryKristineMonth) * 12;
