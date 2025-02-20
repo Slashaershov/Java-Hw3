@@ -50,6 +50,16 @@ public class Main
         timeInMinute = timeInDays*24*60*30;
         result = capacity *timeInMinute;
         System.out.println("За " + timeInMounth + " месяцев" +" машина произвела " + result + " штук бутылок");
+
+        // exercise 5
+        byte red = 2;
+        byte white = 4;
+        byte allCount = 120;
+        byte classCount = (byte) (allCount/(red + white));
+        int redCount = red * classCount;
+        int whiteCount = white * classCount;
+        System.out.println("В школе, где " + classCount + " классов, нужно " + whiteCount + " банок белой краски и "+ redCount + " банок коричневой краски.");
+
     }
 
 }
