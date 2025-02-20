@@ -46,10 +46,10 @@ public class Main
         result = capacity * timeInMinute;
         System.out.println("За " + timeInDays + " суток" + " машина произвела " + result + " штук бутылок.");
 
-        byte timeInMounth = 1;
+        byte timeInMonth = 1;
         timeInMinute = timeInDays * 24 * 60 * 30;
         result = capacity * timeInMinute;
-        System.out.println("За " + timeInMounth + " месяцев" + " машина произвела " + result + " штук бутылок.");
+        System.out.println("За " + timeInMonth + " месяцев" + " машина произвела " + result + " штук бутылок.");
         System.out.println();
 
         // exercise 5
