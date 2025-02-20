@@ -60,6 +60,23 @@ public class Main
         int whiteCount = white * classCount;
         System.out.println("В школе, где " + classCount + " классов, нужно " + whiteCount + " банок белой краски и "+ redCount + " банок коричневой краски.");
 
+        // exercise 6
+        byte bananaWeight = 80;
+        byte bananaCount = 5;
+        short milkVolume = 2;
+        byte milkWeight = 105;
+        byte iceCreamWeight = 100;
+        byte iceCreamCount = 2;
+        byte eggWeight = 70;
+        byte eggCount = 4;
+        int mass = bananaWeight*bananaCount
+                +milkVolume*milkWeight
+                + iceCreamWeight*iceCreamCount
+                +eggWeight*eggCount;
+        float massToFloat = mass/1000f;
+        System.out.println("Спортсмен жрет... хавает... т.е. потребляет " +mass+ " грамм или " + massToFloat + " кг пищи");
+
+        
     }
 
 }
